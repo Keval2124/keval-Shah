@@ -1,0 +1,305 @@
+/* responsive nav-bar */
+
+@media only screen and (max-width: 1700px) and (min-width: 1440px) {
+#change #collapsibleNavbar a{
+  font-size:40px
+}
+
+.navbar-brand {
+ font-size: 45px;
+}
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+#change #collapsibleNavbar a{
+  font-size: 30px
+}
+
+.navbar-brand {
+ font-size: 35px;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 773px) {
+#change #collapsibleNavbar a{
+  font-size: 20px
+}
+
+.navbar-brand {
+ font-size: 23px;
+}
+
+}
+
+@media only screen and (max-width: 773px) and (min-width: 606px) {
+#change #collapsibleNavbar a{
+  font-size: 13px
+}
+
+.navbar-brand {
+ font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 608px) and (min-width: 375px) {
+#change #collapsibleNavbar a{
+  font-size: 14px
+}
+
+.navbar-brand {
+ font-size: 20px;
+}
+}
+
+/* responsive home-page */
+@media (max-width: 1300px) {
+ .home .max-width{
+   margin-left: 0px;
+  }
+
+  #section1{
+    height:110vh ;
+  }
+}
+
+
+@media (max-width: 947px){
+   .max-width{
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }    
+}
+
+@media (max-width: 375px){
+  #h{
+    margin-right: 50px;
+  }
+}
+
+/* responsive about */
+
+@media only screen and (max-width: 230px) and (min-width: 170px) {
+  #section2 h2{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 274px) and (min-width: 230px) {
+  #section2 h2{
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 348px) and (min-width: 274px) {
+  #section2 h2{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 470px) and (min-width: 348px) {
+  #section2 h2{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 470px) and (min-width: 248px) {
+  #section2 img{
+    padding-top: 75px;
+  }
+}
+
+@media only screen and (max-width: 540px) and (min-width: 470px) {
+  #section2 h2{
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 540px){
+  #section2 h2{
+    font-size: 24px;
+  }
+}
+
+/*education*/
+
+
+
+/*Skills*/
+
+@media only screen and (max-width: 570px) and (min-width: 415px){
+    #sectione3 h1 {
+    height: 80px;
+    font-size: 45px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+
+@media only screen and (max-width: 415px) and (min-width: 240px){
+    #section3 h1 {
+    height: 80px;
+    font-size: 40px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 240px) and (min-width: 140px){
+    #section3 h1 {
+    height: 80px;
+    font-size: 35px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 528px) and (min-width: 425px){
+   #section3{
+     height: 220vh;
+   }
+}
+
+@media screen and (max-width: 312px) and (min-width: 225px){
+  #section3{
+   height: 300vh;
+}
+}
+
+/*Skills*/
+
+@media only screen and (max-width: 415px) and (min-width: 240px){
+    #section4 h1 {
+    height: 80px;
+    font-size: 45px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 240px) and (min-width: 140px){
+    #section4 h1 {
+    height: 80px;
+    font-size: 35px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 560px){
+  .carousel-control-next,carousel-control-prev{
+    position: absolute;
+    right: -30px;
+    height: 60px;
+   }
+  }
+
+@media only screen and (max-width: 560px) and (min-width: 260px){
+  .carousel-control-next,carousel-control-prev{
+    position: absolute;
+    right: 0px;
+    height: 60px;
+   }
+  }  
+
+/* responsive contact */
+
+@media only screen and (max-width: 570px) and (min-width: 415px){
+    #sectione5 h1 {
+    height: 80px;
+    font-size: 45px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media  only screen and (max-width: 690px) and (min-width: 240px) {
+   #section5 .max-width {
+    padding: 0 23px;
+    padding-bottom: 45px;
+}
+}
+
+@media only screen and (max-width: 415px) and (min-width: 240px){
+    #section5 h1 {
+    height: 80px;
+    font-size: 40px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 240px) and (min-width: 140px){
+    #section5 h1 {
+    height: 80px;
+    font-size: 35px;
+    letter-spacing: 0em;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1400px){
+  #section5 ul li{
+    font-size: 75px;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 990px){
+  #section5 ul li{
+    font-size: 65px;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 576px){
+  #section5 ul li{
+    font-size: 55px;
+  }
+}
+
+	@media only screen and (max-width: 576px) and (min-width: 280px){
+   
+  #section5 ul li{
+   margin-right: 15px;
+   font-size: 40px;
+   }
+
+   #section5 ul{
+    margin-bottom: 70px;     
+    margin-right: auto;
+    margin-left: auto;
+   }
+   #section5 .container{
+    max-width: 960px;
+   }
+
+	 #section5 li{
+    float: left;
+  }
+   #section5 label{
+   font-size: 20px; 
+  }
+}  
