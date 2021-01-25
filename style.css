@@ -129,7 +129,7 @@ font-family: Audiowide;
     font-size: 30px;
 }
 
-#h ,#d,{
+#h,{
     display: inline-block;
     padding: 12px 36px;
     margin-top: 20px;
@@ -145,25 +145,13 @@ font-family: Audiowide;
   margin-right: 10px;
   font-size: 25px;
   border: 2px solid #FCF6F5FF; 
+  width:300px;
 }
 
 #h:hover{
     color: #E11584 ;
     background: none;
     border: 2px solid #E11584;
-}
-
-#d{
-  background: #00203FFF;
-  color: #ADEFD1FF;
-  border: 2px solid #ADEFD1FF;
-  font-size: 25px;
-}
-
-#d:hover{
-  color: #D6ED17FF;
-  background: none;
-  border: 2px solid #D6ED17FF;
 }
 
 /*about*/
