@@ -129,17 +129,14 @@ font-family: Audiowide;
     font-size: 30px;
 }
 
-#h,{
-    display: inline-block;
-    padding: 12px 36px;
-    margin-top: 20px;
-    font-weight: 400;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
 #h{
+  display: inline-block;
+  padding: 12px 36px;
+  margin-top: 20px;
+  font-weight: 400;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
   background: #990011FF;
   color:#FCF6F5FF;
   margin-right: 10px;
