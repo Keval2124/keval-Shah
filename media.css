@@ -1,52 +1,52 @@
 /* responsive nav-bar */
 
 @media only screen and (max-width: 1700px) and (min-width: 1440px) {
-#change #collapsibleNavbar a{
+#change #navbarScroll a{
   font-size:40px
 }
 
-.navbar-brand {
+.navbar-nav {
  font-size: 45px;
 }
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
-#change #collapsibleNavbar a{
+#change #navbarScroll a{
   font-size: 30px
 }
 
-.navbar-brand {
+.navbar-nav {
  font-size: 35px;
 }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 773px) {
-#change #collapsibleNavbar a{
+#change #navbarScroll a{
   font-size: 20px
 }
 
-.navbar-brand {
+.navbar-nav {
  font-size: 23px;
 }
 
 }
 
 @media only screen and (max-width: 773px) and (min-width: 606px) {
-#change #collapsibleNavbar a{
+#change #navbarScroll a{
   font-size: 13px
 }
 
-.navbar-brand {
+.navbar-nav {
  font-size: 15px;
 }
 }
 
 @media only screen and (max-width: 608px) and (min-width: 375px) {
-#change #collapsibleNavbar a{
+#change #navbarScroll a{
   font-size: 14px
 }
 
-.navbar-brand {
+.navbar-nav {
  font-size: 20px;
 }
 }
@@ -210,21 +210,96 @@
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 560px){
-  .carousel-control-next,carousel-control-prev{
-    position: absolute;
-    right: -30px;
-    height: 60px;
-   }
+@media only screen and (max-width: 1400px) and (min-width: 649px){
+
+ #section4 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        height: calc((100% - 30px) / 2);
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+#section4 div.swiper-slide:nth-child(1) {
+  bottom: 15px;
+}
+
+#section4 div.swiper-slide:nth-child(3) {
+  bottom: 15px;
+}
+
+#section4 div.swiper-slide:nth-child(5) {
+  bottom: 15px;
+}
+
+#section4 div.swiper-slide:nth-child(6) {
+  bottom: -15px;
+}
+
+#section4 div.swiper-slide:nth-child(4) {
+  bottom: -15px;
+}
+
+#section4 div.swiper-slide:nth-child(2) {
+  bottom: -15px;
+}
+
+#section4 div.swiper-slide:nth-child(7) {
+  bottom: 15px;
+}
+
+#section4 div.swiper-slide:nth-child(9) {
+  bottom: 15px;
+}
+
+#section4 div.swiper-slide:nth-child(8) {
+  bottom: -15px;
+}
+}
+
+
+@media only screen and (max-width: 649px) and (min-width: 249px){
+  #section4 .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
   }
 
-@media only screen and (max-width: 560px) and (min-width: 260px){
-  .carousel-control-next,carousel-control-prev{
-    position: absolute;
-    right: 0px;
-    height: 60px;
-   }
-  }  
+  #section4 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  #section4 .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+}
 
 /* responsive contact */
 
@@ -281,8 +356,7 @@
 }
 
 	@media only screen and (max-width: 576px) and (min-width: 280px){
-   
-  #section5 ul li{
+   #section5 ul li{
    margin-right: 15px;
    font-size: 40px;
    }

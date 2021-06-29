@@ -9,71 +9,71 @@
 	<link href="media.css" type="text/css" rel="stylesheet">
 	<link href="normalized.css" type="text/css" rel="stylesheet">
 	<link href="aos.css" type="text/css" rel="stylesheet"><!-- aos.css-->
-        <link href="anicollection.css" type="text/css" rel="stylesheet"><!-- AniCollection.css -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<!-- Link Swiper's CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+	 crossorigin="anonymous">
+	<!-- Bootstrap5.css -->
 
 	<link rel="icon" href="logo.png">
 
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-	<meta name="description" content="Profile Website">
+	<meta name="description" content="Personal Profile Website">
 	<meta name="keywords" content="HTML, CSS, JavaScript ,Bootstrap4">
 	<meta name="author" content="Keval Shah">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
-	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
-	</script>
+	</script><!-- Jquery -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+	 crossorigin="anonymous"></script><!-- Bootstrap5 js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script> 
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	
-	<!-- Global site tag (gtag.js) - Google Analytics. To check number of user visted site -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188191121-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
+  <!-- Global site tag (gtag.js) - Google Analytics. To check number of user visted site -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-188191121-1">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'UA-188191121-1');
-        </script>
+	</script>
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="70">
-
+<body data-bs-target="#navbar">
 
 <header id="change">
-	<nav class="navbar navbar-expand-sm bg-custom navbar-dark fixed-top" id="navi">
-
-		<a class="navbar-brand" data-aos="flip-down" data-aos-offset="300" data-aos-easing="ease-in-sine" href="#section1">Portfo<span>lio</span></a>
-
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    
-    <span class="navbar-toggler-icon"></span>
-
-  </button>
-
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav" data-aos="zoom-in">
-      <li class="nav-item" data-anijs="if: mouseover, do: shake animated" >
+  <nav class="navbar navbar-expand-sm bg-custom navbar-dark fixed-top" id="navi">
+  <div class="container-fluid">
+    <a class="navbar-brand" data-aos="flip-down" data-aos-offset="300" data-aos-easing="ease-in-sine" href="#section1">Portfo<span>lio</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav">
+      <li class="nav-item">
         <a class="nav-link" href="#section1">Home</a>
       </li>
-      <li class="nav-item"  data-anijs="if: mouseover, do: shake animated">
+      <li class="nav-item">
         <a class="nav-link" href="#section2">About</a>
       </li>
-      <li class="nav-item" data-anijs="if: mouseover, do: shake animated">
+      <li class="nav-item">
         <a class="nav-link" href="#section3">Education</a>
       </li> 
-      <li class="nav-item"data-anijs="if: mouseover, do: shake animated">
+      <li class="nav-item">
         <a class="nav-link" href="#section4">Skills</a>
       </li>   
-      <li class="nav-item" data-anijs="if: mouseover, do: shake animated">
+      <li class="nav-item">
         <a class="nav-link" href="#section5">Contact</a>
-      </li> 
-    </ul>
-  </div>  
+      </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 </header> 
 
@@ -168,75 +168,32 @@
          </div>
        </div>
      </div>
-   </div>
+ </div>
  
-
-  <div id="section4" class="container-fluid"> 
-    <center><h1 class="heading">SKILLS</h1></center>
-      <div id="demo" class="carousel slide" data-ride="carousel" data-anijs="if: click, on:.g, do: flipInY animated, to: .carousel-item">
-       <div class="skill">  
-         <a class="carousel-control-prev" href="#demo" data-slide="prev" style="position: absolute;left:0px;height: 60px;top: -80px;">
-           <span class="carousel-control-prev-icon g" id="rg"></span>
-         </a>
-         <a class="carousel-control-next"  href="#demo" data-slide="next" style="position: absolute;right:0px;height: 60px;top: -80px;">
-           <span class="carousel-control-next-icon g" id="lg"></span>
-         </a>
+ <!--Skills-->
+  <div id="section4" class="container-fluid">
+    <center><h1>Skills</h1></center>
+    <br><br>
+    <div id="grid">
+      <br>
+      <div class="container"><!--skiil-->
+       <div class="row">
+         <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML 5"> <i class="fab fa-html5 fa-5x"></i> </div>
+         <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS 3"> <i class="fab fa-css3-alt fa-5x"></i> </div>
+         <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript"> <i class="fab fa-js fa-5x"></i> </div>
+         <div class="col"> <i class="fab fa-sass fa-5x"></i> </div>
        </div>
-
-       <ul class="carousel-indicators" id="list" data-anijs="if: click, on:.h, do: flipInX animated, to: .carousel-item">
-         <li data-target="#demo" data-slide-to="0" class="active h" style="width: 30px;height: 30px;"></li>
-         <li data-target="#demo" data-slide-to="1" class="active h" style="width: 30px;height: 30px;"></li>
-       </ul>
-  
-   <!-- The slideshow -->
-   <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <div class="card-columns">
-         <div class="card" id="a">
-           <div class="card-body text-center">
-             <h2 class="card-text">HTML</h2>
-             <img src="html.webp" class="card-img img-thumbnail mx-auto d-block img-fluid" height="300px">
-           </div>
-         </div>
-         <div class="card" id="b" >
-           <div class="card-body text-center">
-             <h2 class="card-text">CSS3</h2>
-              <img src="css3.webp" class="card-img img-thumbnail mx-auto d-block img-fluid" height="300px">
-           </div>
-         </div>
-         <div class="card" id="c">
-           <div class="card-body text-center">
-             <h2 class="card-text" style="font-size: 1.4rem;">JavaScript</h2>
-              <img src="javascript.webp" class="card-img img-thumbnail mx-auto d-block img-fluid" height="300px">
-           </div>
-         </div>
-      </div> 
-    </div>
-    <div class="carousel-item">
-      <div class="card-columns">
-        <div class="card bg-danger">
-           <div class="card-body text-center">
-             <h2 class="card-text">SASS</h2>
-              <img src="sass.webp" class="card-img img-thumbnail mx-auto d-block img-fluid" height="200px">
-           </div>
-         </div>  
-         <div class="card bg-dark">
-           <div class="card-body text-center">
-             <h2 class="card-text" style="color:snow;">Firebase</h2>
-              <img src="fire.webp" class="card-img img-thumbnail mx-auto d-block img-fluid" height="200px">
-           </div>
-         </div>
-         <div class="card bg-info" >
-           <div class="card-body text-center">
-             <h2 class="card-text">Web Hosting</h2>
-            <img src="host.webp" class="card-img img-thumbnail mx-auto d-block img-fluid" height="200px">
-           </div>
-         </div>
-      </div> 
-    </div>
-   </div>
-  </div>
-  </div>  
+       <br>
+       <div class="row">
+         <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap5"> <i class="fab fa-bootstrap fa-5x"></i> </div>
+         <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="PHP"> <i class="fab fa-php fa-5x"></i> </div>
+         <div class="col" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Excel"> <i class="fas fa-file-excel fa-5x"></i> </div>
+         <div class="col"></div>
+       </div>
+       <br>
+     </div> <!--skiil-->
+    </div> <!--grid-->
+  </div>   
 
  <div id="section5" class="container-fluid">
    <center class="max-width">
@@ -312,10 +269,9 @@
        </script>
     <br><br><br>   
   </footer>
-</div>
+
 
 <script>
-
 
 var top1 = $('#section1').offset().top;
 var top2 = $('#section2').offset().top;
@@ -324,31 +280,32 @@ var top4 = $('#section4').offset().top;
 var top5 = $('#section5').offset().top;
 
 
+
 $(document).ready(function(){
 $(document).scroll(function(){ 
   var scrollPos = $(document).scrollTop();
 
   if ($(document).scrollTop() < 118) {
-    $('#change .navbar').css("cssText", 'background:transparent!important');
-     $('#change #collapsibleNavbar a').css("cssText", 'color:#fff!important') 
+     $('#change .navbar').css("cssText", 'background:transparent!important');
+     $('#change #navbarScroll a').css("cssText", 'color:#fff!important') 
   } else if (scrollPos >= top1 && scrollPos <= top2) {
     $('#change .navbar').css("cssText", 'background:#101820FF!important');
-    $('#change #collapsibleNavbar a').css("cssText", 'color:#F95700FF!important')   
+    $('#change #navbarScroll a').css("cssText", 'color:#F95700FF!important')   
   } else if (scrollPos >= top2 && scrollPos <= top3) {
     $('#change .navbar').css("cssText", 'background:#00539CFF!important');
-    $('#change #collapsibleNavbar a').css("cssText", 'color:#EEA47FFF!important');
+    $('#change #navbarScroll a').css("cssText", 'color:#EEA47FFF!important');
   } else if (scrollPos >= top3 && scrollPos <= top4) {
     $('#change .navbar').css("cssText", 'background:#422057FF!important');
-    $('#change #collapsibleNavbar a').css("cssText", 'color:#DF6589FF!important');
+    $('#change #navbarScroll a').css("cssText", 'color:#DF6589FF!important');
   } else if (scrollPos >= top4 && scrollPos <= top5) {
     $('#change .navbar').css("cssText", 'background:#343148FF!important');
-    $('#change #collapsibleNavbar a').css("cssText", 'color:#D7C49EFF!important');
+    $('#change #navbarScroll a').css("cssText", 'color:#D7C49EFF!important');
   } else if (scrollPos >= top5) {
     $('#change .navbar').css("cssText", 'background:#563f46!important');
-    $('#change #collapsibleNavbar a').css("cssText", 'color:#c79869!important');
+    $('#change #navbarScroll a').css("cssText", 'color:#c79869!important');
   } else  {
     $('#change .navbar').css("cssText", 'background:#000!important');
-    $('#change #collapsibleNavbar a').css("cssText", 'color:#fff!important');
+    $('#change #navbarScroll a').css("cssText", 'color:#fff!important');
   }
 });
 });
@@ -363,8 +320,7 @@ $(document).scroll(function(){
          })
 </script>
  
-<!-- AniCollection.js library -->
-<script src="anijs-min.js"></script>
+
 
 </body>
 </html>
